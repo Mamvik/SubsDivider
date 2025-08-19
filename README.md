@@ -3,9 +3,16 @@ Parse a text to two for easier work in AegiSub (for those who set timestamps fir
 
 ## To-Do List
 - Thinking of different methods of using this script
+  - (FOR THE FUTURE) autodetecting names
+  - (FOR THE FUTURE) two alternatives: either names and texts (the current one) or all together
 - ~~Adding local storage usage for saving typed names (DONE)~~
 - ~~Checking the lines that start with "–" (DONE)~~
 - ~~Removing empty spaces if there's nothing after NAME: (DONE)~~
 - ~~Joining lines starting with "–" if they're close to each other (DONE)~~
+- Control sums (number of lines for checking)
+  - 1st number is chaptername+locations+names, 2nd number is texts(==names)
+- Try to drag location names to the 2nd position
+- Color "\N" symbol like in AegiSub
 - Brief instruction with examples
 - Adding CSS
+- Try to create positioned textareas
