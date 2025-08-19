@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>ConvosDeleter Runner</title>
+    <title>SubsDivider Runner</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        #namesControls {
+            display: none;
+        }
+
         .container {
             display: flex;
             flex-direction: row;
@@ -30,7 +40,11 @@
             <p>Input:</p>
             <textarea cols="70" rows="25" id="input"></textarea>
             <p>Type names with ; between them, e.g.: Miku; Rin; Len</p>
-            <textarea cols="70" rows="5" id="searchNames">Глава 1; Глава 2; Глава 3; Глава 4; Глава 5; Глава 6; Глава 7; Глава 8; Мику; Рин; Лен; Лука; Мейко; Кайто; Ичика; Саки; Хонами; Шихо; Минори; Харука; Айри; Шизуку; Кохане; Ан; Акито; Тойя; Тсукаса; Эму; Нене; Руи; Канаде; Мафую; Эна; Мизуки; ???</textarea>
+            <button id="typeNames">Edit names</button>
+            <div id="namesControls">
+                <textarea cols="70" rows="5" id="searchNames"></textarea>
+                <button id="saveNames">Save names</button>
+            </div>
             <button id="scriptRun">Run</button>
         </div>
         <div class="con2">
