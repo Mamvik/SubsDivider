@@ -76,6 +76,9 @@
 
             document.getElementById("outputNames").value = resultNames.join("\n");
             document.getElementById("outputTexts").value = resultTexts.join("\n");
+
+            document.getElementById("amountNames").textContent = `Amount of lines: ${resultNames.length}`;
+            document.getElementById("amountTexts").textContent = `Amount of lines: ${resultTexts.length}`;
         });
     }
 })();
